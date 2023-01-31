@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="firsth1">hello</h1>
+    <h1 class="secondh1">another h1</h1>
+
+    <button>click</button>
+    <div>
+        <marquee behavior="" direction="left">Good morning class</marquee>
+    </div>
+
+    <div class="parent">
+        <h1>h1</h1>
+        <h1>h1</h1>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+/*
+h1{
+    position: sticky;
+    top: 10vh;
+    background: pink;
+    z-index: 3;
+}
+
+
+button{
+    position: relative;
+    z-index: 2;
+}
+
+*/
+
+.fisth1 {
+  color: red;
+}
+
+.secondh1 {
+  color: aqua;
+}
+
+.parent h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.parent h2:hover {
+  background-color: green;
+}
+
+.parent h3:active {
+  background-color: blue;
+}
+
+.parent h1:nth-child(3) {
+  font-size: 5rem;
+  color: blueviolet;
+}
+div {
+  background: linear-gradient(122deg, pink, orange, blue),
+    url(./images/car-g6bdd17277_640.jpg);
+  width: 100%;
+  min-height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: hard-light;
+}

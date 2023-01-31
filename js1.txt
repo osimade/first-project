@@ -1,0 +1,61 @@
+
+
+
+
+
+var person1 = {
+    firstname: "abiodun",
+    lastname: "osimade",
+    savings: 2000
+}
+
+ person1.savings = person1.savings + 1000;
+
+ alert(person1.savings)
+
+
+ var animal1 = {
+    dog: "bark",
+    snake: "hiss",
+ }
+
+ alert(animal1.dog) 
+
+ var listarray = [
+    {firstname: "abiodun", country: "nigeria"},
+    {firstname: "osimade", country: "morroco"},
+    {firstname: "joseph", country: "belgium"},
+    {firstname: "oladimeji", country: "italy"},
+    {firstname: "adedoyin", country: "canada"},
+]
+ 
+
+ 
+ var newarray = listarray.slice(0,3)
+
+ let array2 = [1,2,3]
+ let array3 = ["a", true, false]
+ //array2.push(56)
+ //let joindarray = array2.concat(array3)
+ console.log(array2.join(""))
+
+ let joinedarray = array2.concat(array3)
+
+
+ /*
+array metthod in js
+pop() => it remove the last element from the array
+push() => it add new element to the end of the array
+shift() => it remove the first element from the array
+unshift() => it add new element to the beginning of the array
+length => it tells us the total number of items in array
+include() => it checks if a particular element exist in the array
+find() => it's similar to includes
+slice() => it takes two argument which is the beginning and the end.
+By cutting out those value
+concat() => it add two arrays together 
+join() => it join two items together in array base on a sign and turn them to string
+foreach() => this loop through the item and print them out one after another
+
+ */
+ 

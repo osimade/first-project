@@ -1,0 +1,136 @@
+// var a = "4";
+
+// if (a === "4") {
+//     console.log(`check the data type`);
+// }
+// var food = "eba";
+
+// if (food === "rice") {
+//     console.log(`buy me ${food}`);
+// } else if (food === "beans") {
+//   console.log(`buy me ${food}`);
+// } else if (food === "pounded yam") {
+//   console.log(`buy me ${food}`);
+// } else {
+//   console.log("return my money");
+// }
+
+
+// logical operator helps us checks multiple conditions,types are
+// 1, AND
+// 2, OR
+// 3, NOT
+// 4, > (GREATER THAN)
+// 5, < (LESS THAN).
+
+// >= 75 = excellent
+// >= 60 and <= 74 = "very good"
+// >= 50 and <= 59 = "good"
+// >= 40 and <= 49 = "pass"
+// <  40 = "poor"
+
+
+// var score = 75;
+
+// if(score >= 75){
+//   console.log("Execllent")
+
+// }else if(score >= 60 && score <=74){
+//   console.log("Very good")
+
+// }else if(score >= 50 && score <=59){
+//    console.log("Good")
+
+// }else if(score >= 40 && score <=49){
+//     console.log("Pass")
+
+// }else{
+//     console.log("Failed")
+// }
+
+// var x = 8;
+// var y = 5;
+
+// if(x === 8 || y ===  5){
+//     console.log("correct")
+// }else{
+//     console.log("data did not match")
+// }
+
+// var role = "admin"
+// if(role != "admin"){
+//     console.log("only admin can perform such operation")
+
+// }else{
+//     console.log("no way")
+// }
+
+// var day = 1;
+
+// switch (day) {
+//   case 1:
+//     console.log("today is monday");
+//     break;
+//   case 2:
+//     console.log("today is tuesday");
+//     break;
+//   case 3:
+//     console.log("today is wednesday");
+//     break;
+// case 4:
+//     console.log("today is thursday");
+//     break;
+//   case 5:
+//     console.log("today is friday");
+//     break;
+//   case 6:
+//     console.log("today is saturday");
+//     break;
+//   case 7:
+//     console.log("today is sunday");
+//     break;
+//   default:
+//     console.log("i dont think that day exist");
+// }
+
+
+
+// function
+// function calculation(){
+//   console.log(56)
+// }
+
+
+// or
+// function calculation(){
+//   return(2 + 2)
+// }
+// console.log(calculation())
+
+
+
+// function studentInfo(name, score, title){
+//   console.log(`Goodday ${title}, ${name}, your result is ${score}%`)
+// }
+
+// studentInfo("abiodun", 20, "Mr")
+// studentInfo("princess", 90, "Mrs")
+
+
+
+ //default value
+// function studentInfo(name = "osimade", score = 20, title = "Mr"){
+//   console.log(`Goodday ${title}, ${name}, your result is ${score}%`)
+// }
+
+// studentInfo()
+// studentInfo("princess", 90, "Mrs")
+
+
+
+// create A FUNCTION () that will calculate temperature from farheit to celcius
+function f2c(f){
+  console.log (32 * 5/8)
+}
+
+f2c()

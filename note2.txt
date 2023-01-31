@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+
+
+<div class="firstdiv">
+    <h1>logo</h1>
+    <i class="fa-brands fa-instagram fa-2x"></i>
+</div>
+
+<ul>
+    <li>about</li>
+    <li>contact</li>
+    <li>shop</li>
+</ul>
+
+<div class="seconddiv">
+    <h3>logo</h3>
+
+    <div>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+.firstdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: palevioletred;
+}
+
+@media(max-width:576px){
+    body{
+        background-color:aqua;
+    }
+}
+
+
+
